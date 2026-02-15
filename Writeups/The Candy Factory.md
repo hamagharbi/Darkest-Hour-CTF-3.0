@@ -537,8 +537,6 @@ Unpacked!
 Analyzing the Unpacked Binary
 Now we can load `The_Candy_Factory_unpacked.exe` into IDA and analyze the main function. The decompiled code reveals several key components:
 
-Got you — here is **your write-up updated and corrected**, keeping your structure and style, but fixing the crypto logic and inaccuracies without rewriting everything from scratch.
-
 ## **1. Anti-Debugging Mechanisms**
 
 The program implements multiple anti-debugging checks at startup:
