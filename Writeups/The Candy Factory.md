@@ -52,7 +52,7 @@ We can confirm that the `.text` section is packed when we navigate to it in IDA.
 The `.text` section doesn't contain normal assembly instructions. Instead, IDA displays raw hexadecimal data defined as double-word (`dd`) values. This is characteristic of packed executables — rather than seeing recognizable x86 assembly mnemonics like `mov`, `push`, `call`, or `jmp`, we see sequences of seemingly random hexadecimal values:
 
 
-```
+```assembly
 .text:00401000 _text           segment para public 'CODE' use32
 .text:00401000                 assume cs:_text
 .text:00401000                 ;org 401000h
